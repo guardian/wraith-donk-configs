@@ -1,4 +1,4 @@
 wraith-donk-configs
 ===================
 
-Repository for Guardian Wraith configuration files.
+Repository for Guardian Wraith configuration files
