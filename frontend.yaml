@@ -23,15 +23,15 @@ domains:
 #Type screen widths below, here are a couple of examples
 screen_widths:
   - 320
-  - 740
-  - 980
-  - 1300
+#  - 740
+#  - 980
+#  - 1300
 
 #Type page URL paths below, here are a couple of examples
 paths:
   article: "/sport/2014/jan/03/ashes-2013-14-statistics-england-australia?view=mobile"
-  liveblog: "/tv-and-radio/2013/oct/26/the-x-factor-2013-live-blog-third-live-show?view=mobile" 
-  gallery: "/news/gallery/2014/jan/02/10-photo-highlights?view=mobile" 
+  liveblog: "/tv-and-radio/2013/oct/26/the-x-factor-2013-live-blog-third-live-show?view=mobile"
+  gallery: "/news/gallery/2014/jan/02/10-photo-highlights?view=mobile"
 
 # If you don't want to name the paths explicitly you can use a yaml
 # collection as follows, and names will be derived by replacing / with _
@@ -52,9 +52,10 @@ wraith_daemon:
   report_location: "http://wraith.gutools.co.uk:8080"
   notifications:
     enabled: true
-    smtp_host: "mx.gc2.dc1.gnm"
-    to: "frontend.wraith@guardian.co.uk"
-    from: "Wraith Daemon <wraith.daemon@guardian.co.uk>"
-    subject: "Wraith done"
-  port: 7777
+    email:
+      smtp_host: "mx.gc2.dc1.gnm"
+      to: "frontend.wraith@guardian.co.uk"
+      from: "Wraith Daemon <wraith.daemon@guardian.co.uk>"
+      subject: "Wraith done"
+
 
