@@ -29,7 +29,7 @@ screen_widths:
 
 #Type page URL paths below, here are a couple of examples
 paths:
-  #testcard: "/testcard"
+  testcard: "/testcard"
   article: "/sport/2014/jan/03/ashes-2013-14-statistics-england-australia?view=mobile"
   gallery: "/news/gallery/2014/jan/02/10-photo-highlights?view=mobile"
   liveblog: "/tv-and-radio/2013/oct/26/the-x-factor-2013-live-blog-third-live-show?view=mobile"
