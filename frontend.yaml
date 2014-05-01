@@ -53,6 +53,7 @@ paths:
   contributor_profile: "/profile/peterwalker?view=mobile"
   expired_content: "/world/2013/jan/10/afghan-mps-warn-against-pullout?view=mobile"
   interactive: "/music/interactive/2013/aug/20/matthew-herbert-quiz-hearing?view=mobile"
+  tag_page: "/technology/hacking"
 
 # If you don't want to name the paths explicitly you can use a yaml
 # collection as follows, and names will be derived by replacing / with _
