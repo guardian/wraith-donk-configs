@@ -31,6 +31,7 @@ screen_widths:
 paths:
   testcard: "/testcard?view=mobile"
   article: "/sport/2014/jan/03/ashes-2013-14-statistics-england-australia?view=mobile"
+  article_layout_hinted: "/environment/2014/may/21/-sp-european-bison-europe-romania-carpathian-mountains?view=mobile"
   gallery: "/news/gallery/2014/jan/02/10-photo-highlights?view=mobile"
   liveblog: "/tv-and-radio/2013/oct/26/the-x-factor-2013-live-blog-third-live-show?view=mobile"
   liveblog_with_witness_posts: "/music/musicblog/2013/jun/27/glastonbury-2013-festival-liveblog-thursday1?view=mobile"
@@ -53,7 +54,7 @@ paths:
   contributor_profile: "/profile/peterwalker?view=mobile"
   expired_content: "/world/2013/jan/10/afghan-mps-warn-against-pullout?view=mobile"
   interactive: "/music/interactive/2013/aug/20/matthew-herbert-quiz-hearing?view=mobile"
-  tag_page: "/technology/hacking"
+  tag_page: "/technology/hacking?view=mobile"
 
 # If you don't want to name the paths explicitly you can use a yaml
 # collection as follows, and names will be derived by replacing / with _
