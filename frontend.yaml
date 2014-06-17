@@ -76,7 +76,7 @@ wraith_daemon:
   notifications:
     enabled: true
     email:
-      smtp_host: "mx.gc2.dc1.gnm"
+      smtp_host: "ec2-46-51-173-175.eu-west-1.compute.amazonaws.com"
       to: "frontend.wraith@guardian.co.uk"
       from: "Wraith Daemon <wraith.daemon@guardian.co.uk>"
       subject: "Wraith done"
