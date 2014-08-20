@@ -78,7 +78,7 @@ wraith_daemon:
     email:
       smtp_host: "mx.gc2.dc1.gnm"
       to: "frontend.wraith@guardian.co.uk"
-      from: "Wraith Daemon <wraith.daemon@guardian.co.uk>"
+      from: "frontend.wraith@guardian.co.uk"
       subject: "Wraith done"
 
 
