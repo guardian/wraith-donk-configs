@@ -73,7 +73,7 @@ function page_render() {
 
 		window.localStorage.setItem('gu.prefs.messages', '{"value":["alpha"]}');
 
-		var adDivs = document.getElementsByClassName('ad-container');
+		var adDivs = document.getElementsByClassName('ad-slot');
 
 		for (i = 0; i < adDivs.length; i++) {
 			var node = adDivs[i];
