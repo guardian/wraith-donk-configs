@@ -95,6 +95,9 @@ function page_render() {
 		var adLabels = document.getElementsByClassName("ad-slot__label");
 		removeAll(adLabels);
 
+        var breakingNews = document.getElementsByClassName("js-breaking-news-placeholder");
+        removeAll(breakingNews);
+
 		var comments = document.getElementById("comments");
 		comments.parentNode.removeChild(comments);
 
